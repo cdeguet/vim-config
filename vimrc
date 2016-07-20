@@ -17,6 +17,7 @@ set expandtab
 set encoding=utf-8
 set showmode
 set showcmd
+set hlsearch
 
 " Reload vimrc automatically
 augroup myvimrc
