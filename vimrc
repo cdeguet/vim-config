@@ -17,6 +17,7 @@ set expandtab
 set encoding=utf-8
 set showmode
 set showcmd
+set hlsearch
 
 " Reload vimrc automatically
 augroup myvimrc
@@ -30,14 +31,14 @@ inoremap jk <ESC>
 let mapleader = "\<Space>"
 
 " Disable arrows
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
+"nnoremap <up> <nop>
+"nnoremap <down> <nop>
+"nnoremap <left> <nop>
+"nnoremap <right> <nop>
+"inoremap <up> <nop>
+"inoremap <down> <nop>
+"inoremap <left> <nop>
+"inoremap <right> <nop>
 
 " Shortcuts
 noremap <Leader>b :b 
