@@ -41,7 +41,7 @@ let mapleader = "\<Space>"
 "inoremap <right> <nop>
 
 " Shortcuts
-noremap <Leader>b :b 
+noremap <Leader>b :buffers<CR>:buffer<Space>
 noremap <Leader>s :update<CR>
 noremap <leader>p :set invpaste<CR>
 noremap <Leader>t :NERDTree<CR>
